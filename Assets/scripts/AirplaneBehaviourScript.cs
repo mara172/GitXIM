@@ -12,6 +12,9 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 	private AudioSource audioSource;
 	private GUIStyle guiStyle = new GUIStyle(); //create a new variable
 	GameObject scorekeeper; 
+	int test ;
+
+
 	//private int currentScore;
 	
 	void Start () {
@@ -24,10 +27,11 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 		lineRenderer.SetColors (Color.black, new Color(0.1f,0.2f,0.1f));
 		lineRenderer.SetWidth(0.1f,0.1f);
 		scorekeeper = GameObject.Find("Main Camera");
-		
+
 		//Audio
 		audioSource = gameObject.AddComponent<AudioSource>();
-		
+
+	
 	}
 	
 	
@@ -161,14 +165,17 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 		int layerHuman = ((this.gameObject.layer == 9)? 2000: 3000);
 		string nm = "P " + this.name + " (" + layerHuman.ToString () + ")";
 		// Fontsize computer
-		guiStyle.fontSize = 16; //change the font size
+		guiStyle.fontSize = 12; //change the font size
 		// Fontsize XIM
 		//guiStyle.fontSize = 46; //change the font size
 		guiStyle.normal.textColor = Color.white;
-		GUI.Label (new Rect (getPixelPos.x -40, getPixelPos.y +40, 200f, 100f), nm, guiStyle);
-		
-		
-		
-		
+
+		if((transform.rotation.eulerAngles.z < 90) || (270 < transform.rotation.eulerAngles.z)&& ( transform.rotation.eulerAngles.z < 360)){
+			GUI.Label (new Rect (getPixelPos.x-80, getPixelPos.y, 200f, 100f), nm, guiStyle);
+		}
+		else{
+			GUI.Label (new Rect (getPixelPos.x+10, getPixelPos.y, 200f, 100f), nm, guiStyle);
+			
+		}
 	}
 }

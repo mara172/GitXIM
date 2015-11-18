@@ -15,9 +15,9 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	private float timeBetweenPlanesMax = 6f;
 	private Vector2[] crashpoints = new Vector2[56];
 	public Vector2 collisiongoal;
-	float timetoreachgoal  = 10.0f;
+	float timetoreachgoal  = 15.0f;
 	//rectangle where the airplanes could arrive (2 corners)
-	public Vector2[] possiblePositions=new [] { new Vector2(-40,-25), new Vector2(40,25)};
+	public Vector2[] possiblePositions=new [] { new Vector2(-140,-25), new Vector2(140,25)};
 	//freespace around possible positions
 	private int freespace = 10;
 	//public int[] directions = new int[] {45, 90};
@@ -27,9 +27,10 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	public Vector3  targetposition ;
 	private string[] layernames = {"height1", "height2"};
 	public float speed;
-
+	private GUIStyle guiStyle = new GUIStyle(); //create a new variable
 	public Vector2 lastCrash = new Vector2(-2000,-2000);
 	public List<string> lastCrashAirplane=new List<string>();
+
 
 
 	// times for easy task
@@ -40,7 +41,7 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	private float timeLastPlane;
 	
 	public float velocityModule = 0.5f;
-	
+	public int labelchange ;
 	public int lastAction = 0;
 	public int lastActionDetails = 0;
 	
@@ -49,6 +50,7 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+
 		float posx;
 		float posy;
 		int crashpointsindex =0;
@@ -81,6 +83,7 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 		layer = Random.Range(0,2);
 		//nPlanes += 1;
 		planeInstance = GameObject.Instantiate(plane);
+		labelchange = Random.Range (0, 20);
 		//Debug.Log (nPlanes);
 		Vector3 temp = planeInstance.transform.position; // copy to an auxiliary variable...
 		velocityAngle = 0;
@@ -103,7 +106,7 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 
 
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
 	{
 
 		if (Time.realtimeSinceStartup > secondsBeforeFirstPlaneAppears && Time.time >= timeLastPlane) {
@@ -113,6 +116,9 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 			int Adirection,Bdirection;
 			sideA = Random.Range(0,4);
 			sideB = Random.Range(0,4);
+			while (sideA == sideB){
+				sideB = Random.Range(0,4);
+			}
 			Bpositionrangex=0;
 			Bpositionrangey=0;
 			Apositionrangex=0;
@@ -121,64 +127,71 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 			Bdirection = 0;
 			//Airplane appears from down
 			if (sideA ==0){
-				Apositionrangex=Random.Range(-40,40);
-				Apositionrangey=-40;
+				Apositionrangex=Random.Range(-240,240);
+				Apositionrangey=-45;
 				Adirection = 90;
 
 			}
 			//Airplane appears from left
 			else if (sideA ==1){
-				Apositionrangex=-60;
-				Apositionrangey=Random.Range(-25,25);
+				Apositionrangex=-240;
+				Apositionrangey=Random.Range(-45,45);
 				Adirection = 0;
 			}
 			//Airplane appears from up
 			else if (sideA ==2){
-				Apositionrangex=Random.Range(-40,40);
-				Apositionrangey=40;
+				Apositionrangex=Random.Range(-240,240);
+				Apositionrangey=45;
 				Adirection = 270;
 			}
 			//Airplane appears from right
 			else if (sideA ==3){
-				Apositionrangex=60;
-				Apositionrangey=Random.Range(-25,25);
+				Apositionrangex=240;
+				Apositionrangey=Random.Range(-45,45);
 				Adirection = 180;
 			}
 
 
 			//Airplane appears from down
 			if (sideB ==0){
-				Bpositionrangex=Random.Range(-60,60);
-				Bpositionrangey=-40;
+				Bpositionrangex=Random.Range(-240,240);
+				Bpositionrangey=-45;
 				Bdirection = 90;
 			}
 			//Airplane appears from left
 			else if (sideB ==1){
-				Bpositionrangex=-60;
-				Bpositionrangey=Random.Range(-25,25);
+				Bpositionrangex=-240;
+				Bpositionrangey=Random.Range(-45,45);
 				Bdirection = 0;
 			}
 			//Airplane appears from up
 			else if (sideB ==2){
-				Bpositionrangex=Random.Range(-60,60);
-				Bpositionrangey=40;
+				Bpositionrangex=Random.Range(-240,240);
+				Bpositionrangey=45;
 				Bdirection = 270;
 			}
 			//Airplane appears from right
 			else if (sideB ==3){
-				Bpositionrangex=60;
-				Bpositionrangey=Random.Range(-25,25);
+				Bpositionrangex=240;
+				Bpositionrangey=Random.Range(-45,45);
 				Bdirection = 180;
 			}
 			int randomcrashpoint1,randomcrashpoint2;
 			randomcrashpoint1 = Random.Range(0,crashpoints.Length-1);
 			float crashpositionx = crashpoints[randomcrashpoint1][0];
 			float crashpositiony = crashpoints[randomcrashpoint1][1];
-			randomcrashpoint2 = Random.Range(0,crashpoints.Length-1);
-			float crashposition2x = crashpoints[randomcrashpoint2][0];
-			float crashposition2y = crashpoints[randomcrashpoint2][1];
+			//randomcrashpoint2 = Random.Range(0,crashpoints.Length-1);
+			//float crashposition2x = crashpoints[randomcrashpoint2][0];
+			//float crashposition2y = crashpoints[randomcrashpoint2][1];
 			makePlane(Apositionrangex, Apositionrangey, crashpositionx, crashpositiony);
 			makePlane(Bpositionrangex, Bpositionrangey, crashpositionx, crashpositiony);
+			//End of Screen in y-axis 45
+			//End of Screen in x-axis 300+x
+			//End of responsible airspace y-axis 25
+			//End of responsible airspace x-axis 125
+
+			//makePlane(125, 25, crashpositionx, crashpositionx);
+			//makePlane(0, 0, crashpositionx, crashpositiony);
 			float timeBetweenPlanes = Random.Range(timeBetweenPlanesMin,timeBetweenPlanesMax);
 			timeLastPlane = Time.time + timeBetweenPlanes;
 			
@@ -187,5 +200,6 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 		nPlanes = GameObject.FindGameObjectsWithTag ("Plane").Length;
 
 	}
+
 }
 
