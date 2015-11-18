@@ -5,10 +5,10 @@ using System.Globalization;
 using System;
 
 public class LogBitPupil{
-
+	
 	System.IO.StreamWriter logFile;
 	private string dataPath;
-
+	
 	private System.IO.StreamWriter Set(string path )
 	{
 		logFile = new System.IO.StreamWriter(dataPath, true);
@@ -18,40 +18,40 @@ public class LogBitPupil{
 	{
 		return logFile;
 	}
-
+	
 	public LogBitPupil (string dataPa, string name, string header) {
-
+		
 		/*if(Directory.Exists(dataPath) == false){
 			DirectoryInfo di = Directory.CreateDirectory(dataPath);
 			
 		}*/
 		dataPath = dataPa +"\\" + DateTime.Now.ToString("MMddHHmmssfff") + "_Data.csv";
 		Set (dataPath);
-	//	Debug.Log (dataPath);
-
-
+		//	Debug.Log (dataPath);
+		
+		
 		//logFile = new System.IO.StreamWriter("C:/Users/xim/Desktop/Hello/my.txt", true);
 		//logFile.WriteLine("#Starting log sesion " + Application.loadedLevelName);	
 		Get ().WriteLine("%Timestamp," + header);	
-
+		
 	}
-
+	
 	public void LogMessage(string msg){
 		//string logEntry = "";
 		//logEntry =  DateTime.Now+";"+ msg;
 		//logEntry = DateTime.Now.ToString("MM:dd:hh:mm:ss:fff",CultureInfo.InvariantCulture) + "," + msg;
-
+		
 		//logFile.WriteLine (logEntry);
-	//	UnityEngine.Debug.Log ("LogMessages");
-	//	Debug.Log (dataPath);
-
-	//	Debug.Log ("Lo");
+		//	UnityEngine.Debug.Log ("LogMessages");
+		//	Debug.Log (dataPath);
+		
+		//	Debug.Log ("Lo");
 		Get ().WriteLine(msg);
 		Get ().Flush ();
-	//	Debug.Log (msg);
-
-	
-
+		//	Debug.Log (msg);
+		
+		
+		
 		/*
 		logFile.WriteLine(System.DateTime.Now.ToString("HHmmssfff") +";"+ logEntry +";"+
 		                  pointer.selectedRegion.ToString() +";"+ pointer.pointer_r.x.ToString() +";" + pointer.pointer_r.y.ToString() 

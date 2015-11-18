@@ -103,7 +103,7 @@ public class BITalinoFrame
         //    " SEQ " + Sequence +
          //   " Analog values " + String.Join ( ";", new List<double> ( analog ).ConvertAll ( i => i.ToString ( ) ).ToArray ( ) ) +
          //   " Digital values " + String.Join ( ";", new List<int> ( digital ).ConvertAll ( i => i.ToString ( ) ).ToArray ( ) );
-		return  DateTime.Now.ToString("hh:mm:ss:fff")+ CRC + ";"+ Sequence + ";"+ String.Join ( ";", new List<double> ( analog ).ConvertAll ( i => i.ToString ( ) ).ToArray ( ) )  + ";"+ String.Join ( ";", new List<int> ( digital ).ConvertAll ( i => i.ToString ( ) ).ToArray ( ) )+ ";" + pupil;
+		return  DateTime.Now.ToString("hh:mm:ss:fff")+  ";"+CRC + ";"+ Sequence + ";"+ String.Join ( ";", new List<double> ( analog ).ConvertAll ( i => i.ToString ( ) ).ToArray ( ) )  + ";"+ String.Join ( ";", new List<int> ( digital ).ConvertAll ( i => i.ToString ( ) ).ToArray ( ) )+ ";" + pupil;
 
 
     }

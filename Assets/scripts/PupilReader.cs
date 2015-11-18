@@ -42,12 +42,12 @@ public class PupilReader : MonoBehaviour {
 		//dataPath += "\\" + DateTime.Now.ToString("MMddHHmmssfff") + "_Data.csv";
 		clientPupil1 = new UdpClient( recievePortUDPPupil1 );
 		remoteIpEndPointPupil1 = new IPEndPoint( IPAddress.Any, recievePortUDPPupil1 );
+		UnityEngine.Debug.Log ("I am in start pupilreader");
 		pupilframeBuffer = new PupilFrame[pupBufferSize];
-		if(clientPupil1.Available!=0)
-		{
+		/*if(clientPupil1.Available!=0)
+		{*/
 			StartCoroutine (start1 ());
-			UnityEngine.Debug.Log ("Bin in Start");
-		}
+		/*}*/
 	}
 	private IEnumerator start1()
 	{
@@ -91,6 +91,7 @@ public class PupilReader : MonoBehaviour {
 				//UnityEngine.Debug.Log (pupThread.ThreadState);
 				byte[] output = clientPupil1.Receive (ref remoteIpEndPointPupil1);
 				string packet2 = Encoding.ASCII.GetString(output);
+				packet2 = DateTime.Now.ToString("hh:mm:ss:fff")+ ";" + packet2;
 				if (packet2 != null && packet2.Length > 0) {
 					eyetrackerData.Set(packet2);
 					pupilframeBuffer [i]=eyetrackerData;
