@@ -25,7 +25,7 @@ using System.Net.Sockets;
 public class PupilReader : MonoBehaviour {
 	public int pupBufferSize = 100;
 	public int recievePortUDPPupil1 = 5000; //4353;//12987; 
-	private UdpClient clientPupil1;
+	public UdpClient clientPupil1;
 	private IPEndPoint remoteIpEndPointPupil1;
 	private Thread pupThread;
 	public PupilFrame[] pupilframeBuffer;
@@ -41,19 +41,18 @@ public class PupilReader : MonoBehaviour {
 		stopWatch = new Stopwatch();
 		//dataPath += "\\" + DateTime.Now.ToString("MMddHHmmssfff") + "_Data.csv";
 		clientPupil1 = new UdpClient( recievePortUDPPupil1 );
+		clientPupil1.Client.Blocking = false;
 		remoteIpEndPointPupil1 = new IPEndPoint( IPAddress.Any, recievePortUDPPupil1 );
 		UnityEngine.Debug.Log ("I am in start pupilreader");
 		pupilframeBuffer = new PupilFrame[pupBufferSize];
-		/*if(clientPupil1.Available!=0)
-		{*/
-			StartCoroutine (start1 ());
-		/*}*/
+		StartCoroutine (start1 ());
 	}
 	private IEnumerator start1()
 	{
 		pupThread = new Thread( new ThreadStart(ReadPup) );
 		pupThread.Name = "UDP listen thread";
-		yield return null;
+	    yield return null;
+
 		stopWatch.Start ();
 		PupilFrame addframe = new PupilFrame ();
 		string message = null;
@@ -63,9 +62,6 @@ public class PupilReader : MonoBehaviour {
 			if (message != null && message.Length > 0) {
 				addframe.Set (message);
 				pupilframeBuffer [i] = addframe;
-					//pupilframeBuffer[i].Set(eyetrackerd.ToString());
-					//	UnityEngine.Debug.Log ("Receiving packet");
-					//	UnityEngine.Debug.Log (message);
 			}
 		}
 		on = true;

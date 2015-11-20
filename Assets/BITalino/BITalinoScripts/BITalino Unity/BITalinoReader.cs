@@ -227,4 +227,16 @@ public class BITalinoReader : MonoBehaviour {
         }
         return result + ";Digit0;Digit1;Digit2;Digit3";
     }
+	public void close()
+	{
+		if (asStart == true)
+		{
+			_Start = false;
+			while (readThread.IsAlive) ;
+			
+			manager.StopAcquisition();
+			manager.Deconnection();
+		}
+	}
+
 }

@@ -29,14 +29,15 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	public float speed;
 	private GUIStyle guiStyle = new GUIStyle(); //create a new variable
 	public Vector2 lastCrash = new Vector2(-2000,-2000);
-	public List<string> lastCrashAirplane=new List<string>();
+	public List<string> lastCrashAirplanetargetposition=new List<string>();
+	public List<string> lastCrashAirplanes=new List<string>();
 
 
 
 	// times for easy task
 	//	private float timeBetweenPlanesMin = 4f;  
 	//	private float timeBetweenPlanesMax = 8f;
-	private int secondsBeforeFirstPlaneAppears = 0; // Wait X seconds before the first enemy appears after the game starts
+	private int secondsBeforeFirstPlaneAppears = 10; // Wait X seconds before the first enemy appears after the game starts
 	
 	private float timeLastPlane;
 	
@@ -44,6 +45,7 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	public int labelchange ;
 	public int lastAction = 0;
 	public int lastActionDetails = 0;
+	public string lastActionAirPlaneNumber = "";
 	
 	public int nPlanes = 0;
 
@@ -89,6 +91,8 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 		velocityAngle = 0;
 		currentposition = new Vector3 (positionrangex, positionrangey,planeInstance.transform.position.z);
 		targetposition = new Vector3 (crashpositionx,crashpositiony ,planeInstance.transform.position.z);
+		planeInstance.AddComponent <Airplanevariables>();
+		planeInstance.GetComponent<Airplanevariables>().targetposition = targetposition;
 		planeInstance.transform.position = currentposition;  
 		//Debug.Log (targetposition);
 		planeInstance.GetComponent<Rigidbody2D>().transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(targetposition.y-currentposition.y, targetposition.x-currentposition.x) * Mathf.Rad2Deg );

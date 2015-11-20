@@ -43,7 +43,6 @@ public class LogBitPupil{
 		
 		//logFile.WriteLine (logEntry);
 		//	UnityEngine.Debug.Log ("LogMessages");
-		//	Debug.Log (dataPath);
 		
 		//	Debug.Log ("Lo");
 		Get ().WriteLine(msg);

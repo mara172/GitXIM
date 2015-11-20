@@ -69,6 +69,7 @@
      <Compile Include="Assets\BITalino\Scenes\SuperCopter\Scripts\Missile.cs" />
      <Compile Include="Assets\BITalino\Scenes\SuperCopter\Scripts\MissileManager.cs" />
      <Compile Include="Assets\scripts\AirplaneBehaviourScript.cs" />
+     <Compile Include="Assets\scripts\Airplanevariables.cs" />
      <Compile Include="Assets\scripts\CollectData.cs" />
      <Compile Include="Assets\scripts\LogBitPupil.cs" />
      <Compile Include="Assets\scripts\PupilFrame.cs" />
