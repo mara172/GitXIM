@@ -1,9 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-using UnityEngine;
-using System.Collections;
-
 public class SelectorBehaviourScript : MonoBehaviour {
 	
 	bool selectPlaneMode = false;

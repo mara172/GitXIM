@@ -172,16 +172,22 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 		int layerHuman = ((this.gameObject.layer == 9)? 2000: 3000);
 		string nm = "P " + this.name + " (" + layerHuman.ToString () + ")";
 		// Fontsize computer
-		guiStyle.fontSize = 12; //change the font size
+		//guiStyle.fontSize = 12; //change the font size
 		// Fontsize XIM
-		//guiStyle.fontSize = 46; //change the font size
+		guiStyle.fontSize = 46; //change the font size
 		guiStyle.normal.textColor = Color.white;
 
 		if((transform.rotation.eulerAngles.z < 90) || (270 < transform.rotation.eulerAngles.z)&& ( transform.rotation.eulerAngles.z < 360)){
-			GUI.Label (new Rect (getPixelPos.x-80, getPixelPos.y, 200f, 100f), nm, guiStyle);
+			//Namespace XIM
+			GUI.Label (new Rect (getPixelPos.x-280, getPixelPos.y, 200f, 100f), nm, guiStyle);
+			//Namespace Computer
+			//GUI.Label (new Rect (getPixelPos.x-80, getPixelPos.y, 200f, 100f), nm, guiStyle);
 		}
 		else{
-			GUI.Label (new Rect (getPixelPos.x+10, getPixelPos.y, 200f, 100f), nm, guiStyle);
+			//Namespace XIM
+			GUI.Label (new Rect (getPixelPos.x+40, getPixelPos.y, 200f, 100f), nm, guiStyle);
+			//Namespace Computer
+			//GUI.Label (new Rect (getPixelPos.x+10, getPixelPos.y, 200f, 100f), nm, guiStyle);
 			
 		}
 	}

@@ -1,4 +1,5 @@
 ﻿<Properties GitUserInfo="UsingMD">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\instantiateAirplanesHighCondition.cs">
     <Files>
@@ -15,6 +16,13 @@
       <File FileName="Assets\scripts\SelectorBehaviourScript.cs" Line="54" Column="27" />
       <File FileName="Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs" Line="1" Column="1" />
       <File FileName="Assets\BITalino\BITalinoScripts\BITalino Unity\GUIBitalino.cs" Line="19" Column="20" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\AirplaneBehaviourScript.cs">
+    <Files>
+      <File FileName="Assets\scripts\AirplaneBehaviourScript.cs" Line="175" Column="39" />
+      <File FileName="Assets\scripts\SelectorBehaviourScript.cs" Line="9" Column="2" />
+>>>>>>> origin/master
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
