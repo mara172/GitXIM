@@ -88,7 +88,7 @@ public class CollectData : MonoBehaviour {
 
 		if (useeyetracker == true) {
 			header = header + "timestamp_gotpupil;eyetrackertime;norm_pos;diameter;confidence;";
-			pupreader.clientPupil1.Client.Blocking=true;
+			//pupreader.clientPupil1.Client.Blocking=true;
 		}
 		if(usebitalino == true){
 			header = header + "timestamp_gotbitdata;CRC;SEQ;AnalogOutp1;AnalogOutp2;AnalogOutp3;AnalogOutp4;AnalogOutp5;AnalogOutp6;DigitalOutp1;DigitalOutp2;igitalOutp3;DigitalOutp4;";
@@ -164,7 +164,7 @@ public class CollectData : MonoBehaviour {
 		//		UnityEngine.Debug.Log ("Save line in collectdata");
 				string completeline= message2 +  nPlanes.ToString() + ";" + lastAction.ToString() + ";" + lastActionDetails.ToString()+ ";" + lastActionAirPlaneNumber + ";" + positiveScore.ToString() + ";" 
 			+ negativeScore.ToString()+";"+ lastCrashAirplanes +";"+ lastCrashAirplanestarget+";" + lastCrash.ToString()+";";
-				//UnityEngine.Debug.Log (completeline);
+				UnityEngine.Debug.Log (completeline);
 				myLog.LogMessage(completeline);
 			//	UnityEngine.Debug.Log("Written");
 	}
