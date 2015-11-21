@@ -31,9 +31,8 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	public Vector2 lastCrash = new Vector2(-2000,-2000);
 	public List<string> lastCrashAirplanetargetposition=new List<string>();
 	public List<string> lastCrashAirplanes=new List<string>();
-
-
-
+	public List<string> allAirplanesonScreen = new List<string>();
+	
 	// times for easy task
 	//	private float timeBetweenPlanesMin = 4f;  
 	//	private float timeBetweenPlanesMax = 8f;
@@ -80,6 +79,8 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 		do {
 			planeName = myNumbers[Random.Range(0,8)].ToString() + myNumbers[Random.Range(0,8)].ToString() ;
 		} while (GameObject.Find(planeName));
+		allAirplanesonScreen.Add (planeName);
+		//Debug.Log (allAirplanesonScreen.ToArray().ToString());
 		int layer, angle;
 		float velocityAngle;
 		layer = Random.Range(0,2);
@@ -94,11 +95,14 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 		planeInstance.AddComponent <Airplanevariables>();
 		planeInstance.GetComponent<Airplanevariables>().targetposition = targetposition;
 		planeInstance.transform.position = currentposition;  
+		float velocity = Mathf.Atan2 (targetposition.y - currentposition.y, targetposition.x - currentposition.x) * Mathf.Rad2Deg;
+		planeInstance.GetComponent<Airplanevariables>().velocity = velocity;
 		//Debug.Log (targetposition);
-		planeInstance.GetComponent<Rigidbody2D>().transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(targetposition.y-currentposition.y, targetposition.x-currentposition.x) * Mathf.Rad2Deg );
+		planeInstance.GetComponent<Rigidbody2D>().transform.rotation = Quaternion.Euler(0, 0,  velocity);
 		velocityAngle = Mathf.Atan2 (targetposition.y - currentposition.y, targetposition.x - currentposition.x);
 		float lengthway = (currentposition - targetposition).magnitude;
 		speed = lengthway/timetoreachgoal;
+		planeInstance.GetComponent<Airplanevariables>().speed = speed;
 		planeInstance.GetComponent<Rigidbody2D>().velocity = new Vector2 (speed*Mathf.Cos (velocityAngle),speed*Mathf.Sin (velocityAngle));
 		planeInstance.layer = LayerMask.NameToLayer (layernames [layer]);
 		planeInstance.GetComponent<SpriteRenderer>().color = new Color(0.8f,0.8f,0.0f);
