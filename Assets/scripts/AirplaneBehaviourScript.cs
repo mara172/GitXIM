@@ -177,7 +177,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 		//guiStyle.fontSize = 12; //change the font size
 		// Fontsize XIM
 		guiStyle.fontSize = 46; //change the font size
-		guiStyle.normal.textColor = Color.grey;
+		guiStyle.normal.textColor = Color.white;
 
 		if((transform.rotation.eulerAngles.z < 90) || (270 < transform.rotation.eulerAngles.z)&& ( transform.rotation.eulerAngles.z < 360)){
 			//Namespace XIM
