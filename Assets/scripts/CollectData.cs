@@ -65,9 +65,9 @@ public class CollectData : MonoBehaviour {
 		string header = "timestamp_write;";
 
 
+
 		if (useeyetracker == true) {
 			header = header + "timestamp_gotpupil;eyeTrackerTime;normPos;diameter;confidence;";
-			//pupreader.clientPupil1.Client.Blocking=true;
 		}
 		if(usebitalino == true){
 			header = header + "timestamp_gotbitdata;CRC;SEQ;AnalogOutp1;AnalogOutp2;AnalogOutp3;AnalogOutp4;AnalogOutp5;AnalogOutp6;DigitalOutp1;DigitalOutp2;DigitalOutp3;DigitalOutp4;";
@@ -82,9 +82,9 @@ public class CollectData : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		while (stopWatch.Elapsed.TotalSeconds < experiment_time) {
-			UnityEngine.Debug.Log(stopWatch.Elapsed.TotalMinutes);
-			UnityEngine.Debug.Log(experiment_time);
+		//UnityEngine.Debug.Log (stopWatch.Elapsed.TotalSeconds);
+		UnityEngine.Debug.Log ("experiment_time " +experiment_time);
+		if (stopWatch.Elapsed.TotalSeconds < experiment_time) {
 			string bitalinodata = null;
 			string pupildata = null;
 			if (usebitalino || (useeyetracker)) {
@@ -96,8 +96,9 @@ public class CollectData : MonoBehaviour {
 				}
 
 			
-				//UnityEngine.Debug.Log ("Collectdata from bitalino" + bitalinodata);
+				UnityEngine.Debug.Log ("Collectdata from bitalino" + bitalinodata);
 			}
+			UnityEngine.Debug.Log (dataFile);
 			if (dataFile) {
 				WriteinFile (bitalinodata, pupildata);
 			}
@@ -120,6 +121,7 @@ public class CollectData : MonoBehaviour {
 
 	private void WriteinFile(string bitalinodata,string pupildata)
 	{
+		UnityEngine.Debug.Log ("inWrite");
 		if ((usebitalino == true) && (bitalinodata == null)) {
 			bitalinodata = ";;;;;;;;;;;;;";
 		}
@@ -127,16 +129,23 @@ public class CollectData : MonoBehaviour {
 			pupildata = ";;;;;";
 		}
 		string message2 = DateTime.Now.ToString("hh:mm:ss:fff") + ";" +    pupildata +bitalinodata;
-		int nPlanes = instantiator.nPlanes;
-		int lastAction = instantiator.lastAction;
-		int lastActionDetails = instantiator.lastActionDetails;
-		string lastActionAirPlaneNumber =	instantiator.lastActionAirPlaneNumber;
+		int nPlanes = 0;
+		nPlanes=	instantiator.nPlanes;
+		int lastAction = 0;
+		lastAction = instantiator.lastAction;
+		int lastActionDetails = 0;
+		lastActionDetails= instantiator.lastActionDetails;
+		string lastActionAirPlaneNumber = "0";
+		lastActionAirPlaneNumber=instantiator.lastActionAirPlaneNumber;
 		if (lastActionAirPlaneNumber == "") {
 			lastActionAirPlaneNumber = "0";
 		}
-		int calculatedScore = (int) scorer.currentScore;
-		int positiveScore = scorer.currentScorePositive;
-		int negativeScore = (int) scorer.currentScoreNegative;
+		int calculatedScore = 0;
+		calculatedScore=(int) scorer.currentScore;
+		int positiveScore = 0;
+		positiveScore=scorer.currentScorePositive;
+		int negativeScore = 0;
+		negativeScore= (int) scorer.currentScoreNegative;
 		string crashedAir = "0";
 		string onSreenAir = "0";
 		int i = 0;
@@ -161,14 +170,15 @@ public class CollectData : MonoBehaviour {
 		}
 		UnityEngine.Debug.Log (onSreenAir);
 		string lastCrashAirplanestarget ="("+string.Join(",", instantiator.lastCrashAirplanetargetposition.ToArray())+")";
-		Vector2 lastCrash = instantiator.lastCrash;
+		Vector2 lastCrash =new Vector2 (-2000,-2000);
+		lastCrash=instantiator.lastCrash;
 
 		//		UnityEngine.Debug.Log ("Save line in collectdata");
 		string completeline= message2 +  nPlanes.ToString() + ";" + onSreenAir + ";" + lastAction.ToString() + ";" + lastActionDetails.ToString()+ ";" + lastActionAirPlaneNumber + ";" + calculatedScore.ToString() + ";" + positiveScore.ToString() + ";" 
 			+ negativeScore.ToString()+";"+ crashedAir +";"+ lastCrashAirplanestarget+";" + lastCrash.ToString()+";";
 		UnityEngine.Debug.Log (completeline);
 		myLog.LogMessage(completeline);
-			//	UnityEngine.Debug.Log("Written");
+		UnityEngine.Debug.Log("Written");
 	}
 	internal string getTime()
 	{
