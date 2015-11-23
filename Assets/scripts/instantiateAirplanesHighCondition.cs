@@ -32,11 +32,8 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	public List<string> lastCrashAirplanetargetposition=new List<string>();
 	public List<string> lastCrashAirplanes=new List<string>();
 	public List<string> allAirplanesonScreen = new List<string>();
-<<<<<<< HEAD
 	public bool spawn_air = true;
-=======
-	
->>>>>>> 35849353f2ed201af4ff6ade2f95ad267797c4e6
+
 	// times for easy task
 	//	private float timeBetweenPlanesMin = 4f;  
 	//	private float timeBetweenPlanesMax = 8f;
