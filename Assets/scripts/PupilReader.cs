@@ -59,6 +59,7 @@ public class PupilReader : MonoBehaviour {
 		for (int i = 0; i < pupBufferSize; i++) {
 			byte[] output = clientPupil1.Receive (ref remoteIpEndPointPupil1);
 			message = Encoding.ASCII.GetString (output);
+			message = DateTime.Now.ToString("hh:mm:ss:fff")+ ";" + message;
 			if (message != null && message.Length > 0) {
 				addframe.Set (message);
 				pupilframeBuffer [i] = addframe;
