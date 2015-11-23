@@ -12,6 +12,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 	private AudioSource audioSource;
 	private GUIStyle guiStyle = new GUIStyle(); //create a new variable
 	GameObject scorekeeper; 
+	private int changingangle = 30;
 	int test ;
 
 
@@ -38,7 +39,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 	void RotateAndChangeVelocity(int angle) {
 		float currentAngle = transform.rotation.eulerAngles.z + angle;
 		transform.rotation=Quaternion.Euler(0, 0,  currentAngle );
-		rbPlane.velocity = new Vector2 (instantiator.speed*Mathf.Cos (currentAngle*Mathf.Deg2Rad),instantiator.speed*Mathf.Sin (currentAngle*Mathf.Deg2Rad));
+		rbPlane.velocity = new Vector2 (this.GetComponent<Airplanevariables>().speed*Mathf.Cos (currentAngle*Mathf.Deg2Rad),this.GetComponent<Airplanevariables>().speed*Mathf.Sin (currentAngle*Mathf.Deg2Rad));
 		selector.selectedPlaneName = "";
 		//change color
 		GetComponent<SpriteRenderer>().color = new Color(0.8f,0.8f,0.0f);
@@ -49,7 +50,8 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 	}
 	
 	void SafeDestroy(int type) {
-
+		instantiator.allAirplanesonScreen.Remove (this.name);
+		//Debug.Log (instantiator.allAirplanesonScreen.ToArray().ToString());
 		if (selector.selectedPlaneName == this.name) {
 			selector.selectedPlaneName = "";
 		}
@@ -71,7 +73,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 
 		if((instantiator.possiblePositions[0].x < this.gameObject.transform.position.x)&&(this.gameObject.transform.position.x < instantiator.possiblePositions[1].x)
 		   &&(instantiator.possiblePositions[0].y <this.gameObject.transform.position.y ) &&(this.gameObject.transform.position.y < instantiator.possiblePositions[1].y)){
-			scorekeeper.GetComponent<scoreScript>().currentScore -= 1.0f;
+			scorekeeper.GetComponent<scoreScript>().currentScore -= 3.0f;
 			scorekeeper.GetComponent<scoreScript> ().currentScoreNegative += 1.0f;
 			instantiator.lastCrashAirplanetargetposition.Add(this.gameObject.GetComponent<Airplanevariables>().targetposition.ToString());
 			instantiator.lastCrashAirplanes.Add(this.gameObject.name.ToString());
@@ -81,8 +83,8 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 			//Debug.Log(scorekeeper.GetComponent<scoreScript> ().currentScoreNegative);
 		}
 		else{
-			scorekeeper.GetComponent<scoreScript>().currentScore += 1.0f;
-			scorekeeper.GetComponent<scoreScript> ().currentScorePositive += 1;
+			scorekeeper.GetComponent<scoreScript>().currentScore -= 1.0f;
+			scorekeeper.GetComponent<scoreScript> ().currentScoreNegative += 1.0f;
 			//Debug.Log("Not counting crash");
 			//Debug.Log(this.gameObject.transform.position);
 		}
@@ -95,7 +97,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 			//Debug.Log("I am safe");
 			//Debug.Log("score now: " + scorekeeper.GetComponent<scoreScript>().currentScore.ToString());
 			SafeDestroy(0);
-			scorekeeper.GetComponent<scoreScript>().currentScore++;
+			scorekeeper.GetComponent<scoreScript>().currentScore += 5.0f;
 			scorekeeper.GetComponent<scoreScript>().currentScorePositive++;
 			//Debug.Log("new score: " + scorekeeper.GetComponent<scoreScript>().currentScore.ToString());
 		} 
@@ -113,21 +115,21 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 				//					instantiator.lastActionDetails = 1;
 				//				}
 				if (Input.GetKeyDown ("down")) {
-					Debug.Log ("Rotate 45!");
+					Debug.Log ("Rotate "+ changingangle +"!");
 					instantiator.lastAction = 1;
 					instantiator.lastActionDetails = 2;
 					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
 					Debug.Log(instantiator.lastActionAirPlaneNumber);
-					RotateAndChangeVelocity (-45);
+					RotateAndChangeVelocity (-1 * changingangle);
 
 				}
 				if (Input.GetKeyDown ("up")) {
-					Debug.Log ("Rotate -45!");
+					Debug.Log ("Rotate -"+changingangle+" !");
 					instantiator.lastAction = 1;
 					instantiator.lastActionDetails = 3;
 					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
 					Debug.Log(instantiator.lastActionAirPlaneNumber);
-					RotateAndChangeVelocity (45);
+					RotateAndChangeVelocity (changingangle);
 
 				}
 				//				if (Input.GetKeyDown ("f")) {

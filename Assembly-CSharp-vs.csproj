@@ -75,6 +75,7 @@
      <Compile Include="Assets\scripts\PupilFrame.cs" />
      <Compile Include="Assets\scripts\PupilReader.cs" />
      <Compile Include="Assets\scripts\SelectorBehaviourScript.cs" />
+     <Compile Include="Assets\scripts\TimerPUP.cs" />
      <Compile Include="Assets\scripts\instantiateAirplanesHighCondition.cs" />
      <Compile Include="Assets\scripts\scoreScript.cs" />
      <None Include="Assets\prefabs\myShader.shader" />
