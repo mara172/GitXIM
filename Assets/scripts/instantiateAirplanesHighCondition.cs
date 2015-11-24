@@ -11,8 +11,8 @@ public class instantiateAirplanesHighCondition : MonoBehaviour
 	
 	//private float timeBetweenPlanes = 4f;  // 0.2 = 5 shots per second
 	// times for difficult task
-	private float timeBetweenPlanesMin = 2f;
-	private float timeBetweenPlanesMax = 6f;
+	public float timeBetweenPlanesMin = 2f;
+	public float timeBetweenPlanesMax = 6f;
 	private Vector2[] crashpoints = new Vector2[56];
 	public Vector2 collisiongoal;
 	float timetoreachgoal  = 15.0f;

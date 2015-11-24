@@ -25,8 +25,17 @@ public class LogBitPupil{
 			DirectoryInfo di = Directory.CreateDirectory(dataPath);
 			
 		}*/
-		dataPath = dataPa +"\\" + DateTime.Now.ToString("MMddHHmmssfff") + name +".csv";
+		int i = 1;
+		dataPath = dataPa +"\\" + name + i+".csv";
+		while (System.IO.File.Exists(dataPath))
+		{
+			//do stuff
+			i++;
+			dataPath = dataPa +"\\" + name + i+".csv";
+
+		}
 		Set (dataPath);
+
 		//	Debug.Log (dataPath);
 		
 		
