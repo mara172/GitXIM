@@ -1,14 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\LogBitPupil.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CollectData.cs">
     <Files>
-      <File FileName="Assets\scripts\instantiateAirplanesHighCondition.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\CollectData.cs" Line="132" Column="17" />
-      <File FileName="Assets\scripts\LogBitPupil.cs" Line="41" Column="27" />
-      <File FileName="Assets\scripts\PupilReader.cs" Line="1" Column="1" />
-      <File FileName="Assets\BITalino\BITalinoScripts\BITalino Unity\BITalinoReader.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\AirplaneBehaviourScript.cs" Line="56" Column="4" />
+      <File FileName="Assets\scripts\CollectData.cs" Line="109" Column="3" />
+      <File FileName="Assets\scripts\instantiateAirplanesHighCondition.cs" Line="87" Column="29" />
+      <File FileName="Assets\scripts\LogBitPupil.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Airplanevariables.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\PupilFrame.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\scoreScript.cs" Line="16" Column="3" />
+      <File FileName="Assets\scripts\PupilReader.cs" Line="94" Column="34" />
+      <File FileName="Assets\scripts\scoreScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\SelectorBehaviourScript.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\TimerPUP.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

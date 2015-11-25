@@ -85,11 +85,11 @@ public class PupilReader : MonoBehaviour {
 				{
 					pupilframeBuffer[i] = pupilframeBuffer[i + 1];
 				}
-				UnityEngine.Debug.Log (pupThread.ThreadState);
+				//UnityEngine.Debug.Log (pupThread.ThreadState);
 				byte[] output = clientPupil1.Receive (ref remoteIpEndPointPupil1);
 				string packet2 = Encoding.ASCII.GetString(output);
 				packet2 = DateTime.Now.ToString("hh:mm:ss:fff")+ ";" + packet2;
-				UnityEngine.Debug.Log(packet2);
+				//UnityEngine.Debug.Log(packet2);
 				if (packet2 != null && packet2.Length > 0) {
 					eyetrackerData.Set(packet2);
 					pupilframeBuffer [i]=eyetrackerData;

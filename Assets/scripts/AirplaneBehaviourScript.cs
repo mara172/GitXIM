@@ -28,11 +28,8 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 		lineRenderer.SetColors (Color.black, new Color(0.1f,0.2f,0.1f));
 		lineRenderer.SetWidth(0.1f,0.1f);
 		scorekeeper = GameObject.Find("Main Camera");
-
 		//Audio
 		audioSource = gameObject.AddComponent<AudioSource>();
-
-	
 	}
 	
 	
@@ -56,7 +53,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 			selector.selectedPlaneName = "";
 		}
 		//instantiator.nPlanes -= 1;
-		Debug.Log (instantiator.nPlanes);
+	//	Debug.Log (instantiator.nPlanes);
 		this.gameObject.GetComponent<Renderer>().enabled = false;
 		if (type == 1) {
 			Destroy (this.gameObject, audioCollision.length); //waits till audio is finished playing before destroying.
@@ -77,7 +74,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 			scorekeeper.GetComponent<scoreScript> ().currentScoreNegative += 1.0f;
 			instantiator.lastCrashAirplanetargetposition.Add(this.gameObject.GetComponent<Airplanevariables>().targetposition.ToString());
 			instantiator.lastCrashAirplanes.Add(this.gameObject.name.ToString());
-			Debug.Log("Crashed Airplanes "+this.gameObject.name.ToString());
+			//Debug.Log("Crashed Airplanes "+this.gameObject.name.ToString());
 			instantiator.lastCrash.x = this.gameObject.transform.position.x;
 			instantiator.lastCrash.y = this.gameObject.transform.position.y;
 			//Debug.Log(scorekeeper.GetComponent<scoreScript> ().currentScoreNegative);
@@ -118,8 +115,9 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 					Debug.Log ("Rotate "+ changingangle +"!");
 					instantiator.lastAction = 1;
 					instantiator.lastActionDetails = 2;
+					Debug.Log("Setting last Action" + instantiator.lastAction);
 					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
-					Debug.Log(instantiator.lastActionAirPlaneNumber);
+					//Debug.Log(instantiator.lastActionAirPlaneNumber);
 					RotateAndChangeVelocity (-1 * changingangle);
 
 				}
@@ -127,8 +125,9 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 					Debug.Log ("Rotate -"+changingangle+" !");
 					instantiator.lastAction = 1;
 					instantiator.lastActionDetails = 3;
+					Debug.Log("Setting last Action" + instantiator.lastAction);
 					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
-					Debug.Log(instantiator.lastActionAirPlaneNumber);
+					//Debug.Log(instantiator.lastActionAirPlaneNumber);
 					RotateAndChangeVelocity (changingangle);
 
 				}
@@ -142,8 +141,9 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 					this.gameObject.layer = ((this.gameObject.layer == 9) ? 10: 9);
 					instantiator.lastAction = 2;
 					instantiator.lastActionDetails = 1;
+					Debug.Log("Setting last Action" + instantiator.lastAction);
 					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
-					Debug.Log(instantiator.lastActionAirPlaneNumber);
+					//Debug.Log(instantiator.lastActionAirPlaneNumber);
 					//GetComponent<SpriteRenderer>().color = ((this.gameObject.layer == 9) ? Color.blue: Color.black);
 					GetComponent<SpriteRenderer>().color = new Color(0.8f,0.8f,0.0f);
 					//update plane height (layer) on text label

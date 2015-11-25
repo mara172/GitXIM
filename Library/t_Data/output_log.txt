@@ -1,0 +1,34 @@
+Mono path[0] = 'D:/Arbeit/BarcelonaResearchStay/GitXIM/Library/t_Data/Managed'
+Mono path[1] = 'D:/Arbeit/BarcelonaResearchStay/GitXIM/Library/t_Data/Mono'
+Mono config path = 'D:/Arbeit/BarcelonaResearchStay/GitXIM/Library/t_Data/Mono/etc'
+PlayerConnection initialized from D:/Arbeit/BarcelonaResearchStay/GitXIM/Library/t_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55447
+Multi-casting "[IP] 192.168.0.110 [Port] 55447 [Flags] 2 [Guid] 3255389964 [EditorId] 18159043 [Version] 1048832 [Id] WindowsPlayer(Mara-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.0.110:55447]
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\Library\t_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.130 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.

@@ -1,0 +1,2303 @@
+Mono path[0] = 'D:/Arbeit/BarcelonaResearchStay/GitXIM/LC_Data/Managed'
+Mono path[1] = 'D:/Arbeit/BarcelonaResearchStay/GitXIM/LC_Data/Mono'
+Mono config path = 'D:/Arbeit/BarcelonaResearchStay/GitXIM/LC_Data/Mono/etc'
+PlayerConnection initialized from D:/Arbeit/BarcelonaResearchStay/GitXIM/LC_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55256
+Multi-casting "[IP] 192.168.0.110 [Port] 55256 [Flags] 2 [Guid] 151157152 [EditorId] 18159043 [Version] 1048832 [Id] WindowsPlayer(Mara-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.0.110:55256]
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.065 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\System.dll (this message is harmless)
+joyful airplane container
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:21)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 21)
+
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: D:\Arbeit\BarcelonaResearchStay\GitXIM\LC_Data\Managed\System.Xml.dll (this message is harmless)
+I am in start pupilreader
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PupilReader:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\PupilReader.cs:46)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/PupilReader.cs Line: 46)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at CollectData.FixedUpdate () [0x00054] in D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\CollectData.cs:79 
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/CollectData.cs Line: 79)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at CollectData.FixedUpdate () [0x00054] in D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\CollectData.cs:79 
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/CollectData.cs Line: 79)
+
+Thread Pupil software
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Done, Connection
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerBITalino:WriteLog(String) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:225)
+ManagerBITalino:Connection() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:108)
+<start>c__Iterator0:MoveNext() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\BITalinoReader.cs:45)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/BITalino/BITalinoScripts/BITalino Unity/ManagerBITalino.cs Line: 225)
+
+Done, acquisition started
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerBITalino:WriteLog(String) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:225)
+ManagerBITalino:StartAcquisition() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:163)
+<start>c__Iterator0:MoveNext() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\BITalinoReader.cs:48)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/BITalino/BITalinoScripts/BITalino Unity/ManagerBITalino.cs Line: 225)
+
+Instantited Airplanes(-10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate -30 !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:125)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 125)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:128)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 128)
+
+Instantited Airplanes(3.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(3.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(23.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(23.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 24
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate -30 !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:125)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 125)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:128)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 128)
+
+Instantited Airplanes(16.7, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(16.7, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 24
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Instantited Airplanes(3.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(3.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Setting last Action2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:144)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 144)
+
+Instantited Airplanes(23.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(23.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(0.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(0.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(3.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(3.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 04
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(-16.7, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-16.7, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 04
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Setting last Action2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:144)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 144)
+
+Instantited Airplanes(-3.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-3.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+7
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 47
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(3.3, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(3.3, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(-10.0, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-10.0, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 03
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(3.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(3.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 43
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(16.7, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(16.7, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(-16.7, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-16.7, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(-10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(-30.0, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-30.0, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 41
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Setting last Action2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:144)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 144)
+
+Instantited Airplanes(3.3, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(3.3, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 41
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(-30.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-30.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Instantited Airplanes(-30.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-30.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 41
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate -30 !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:125)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 125)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:128)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 128)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 41
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Instantited Airplanes(16.7, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(16.7, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Rotate -30 !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:125)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 125)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:128)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 128)
+
+Instantited Airplanes(-23.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-23.3, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 42
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+Instantited Airplanes(-3.3, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-3.3, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 42
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Setting last Action2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:144)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 144)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+Instantited Airplanes(-23.3, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-23.3, -5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 42
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(-10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-10.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 48
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate -30 !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:125)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 125)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:128)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 128)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+Instantited Airplanes(10.0, -10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(10.0, -10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 48
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate -30 !
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:125)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 125)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:128)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 128)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 48
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Instantited Airplanes(23.3, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(23.3, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Setting last Action2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:144)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 144)
+
+Instantited Airplanes(-30.0, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-30.0, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 53
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+Instantited Airplanes(-23.3, -10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-23.3, -10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 53
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(-23.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-23.3, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 23
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Instantited Airplanes(-16.7, -10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-16.7, -10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+Instantited Airplanes(10.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(10.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 23
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(0.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(0.0, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 23
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Instantited Airplanes(-30.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-30.0, -15.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+Setting last Action2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:144)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 144)
+
+Instantited Airplanes(-23.3, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-23.3, 0.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 28
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Rotate 30!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:115)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 115)
+
+Setting last Action1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:118)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 118)
+
+Instantited Airplanes(10.0, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(10.0, 10.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+entering select plane mode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:50)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 50)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:28)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 28)
+
+selected: 28
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SelectorBehaviourScript:Update() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\SelectorBehaviourScript.cs:37)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/SelectorBehaviourScript.cs Line: 37)
+
+Instantited Airplanes(-3.3, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:195)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+Instantited Airplanes(-3.3, 5.0, -1.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+instantiateAirplanesHighCondition:makePlane(Int32, Int32, Single, Single) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:110)
+instantiateAirplanesHighCondition:FixedUpdate() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\instantiateAirplanesHighCondition.cs:196)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/instantiateAirplanesHighCondition.cs Line: 110)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+airplane_container (SelectorBehaviourScript)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AirplaneBehaviourScript:Start() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\AirplaneBehaviourScript.cs:24)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/AirplaneBehaviourScript.cs Line: 24)
+
+DONE acquisition stopped
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerBITalino:WriteLog(String) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:225)
+ManagerBITalino:StopAcquisition() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:181)
+BITalinoReader:OnApplicationQuit() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\BITalinoReader.cs:184)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/BITalino/BITalinoScripts/BITalino Unity/ManagerBITalino.cs Line: 225)
+
+Done, Deconnection
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ManagerBITalino:WriteLog(String) (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:225)
+ManagerBITalino:Deconnection() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\ManagerBITalino.cs:125)
+BITalinoReader:OnApplicationQuit() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\BITalino\BITalinoScripts\BITalino Unity\BITalinoReader.cs:185)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/BITalino/BITalinoScripts/BITalino Unity/ManagerBITalino.cs Line: 225)
+
+Close Calibration
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PupilReader:close() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\PupilReader.cs:159)
+CollectData:close() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\CollectData.cs:178)
+CollectData:OnApplicationQuit() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\CollectData.cs:183)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/PupilReader.cs Line: 159)
+
+Close Calibration
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CollectData:close() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\CollectData.cs:179)
+CollectData:OnApplicationQuit() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\CollectData.cs:183)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/CollectData.cs Line: 179)
+
+Close Calibration
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PupilReader:close() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\PupilReader.cs:159)
+PupilReader:OnApplicationQuit() (at D:\Arbeit\BarcelonaResearchStay\GitXIM\Assets\scripts\PupilReader.cs:164)
+ 
+(Filename: D:/Arbeit/BarcelonaResearchStay/GitXIM/Assets/scripts/PupilReader.cs Line: 159)
+

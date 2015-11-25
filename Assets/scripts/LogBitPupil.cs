@@ -51,8 +51,6 @@ public class LogBitPupil{
 		
 		//ogFile.WriteLine (logEntry);
 		//	UnityEngine.Debug.Log ("LogMessages");
-		UnityEngine.Debug.Log (Get());
-		UnityEngine.Debug.Log (msg);
 		Get ().WriteLine(msg);
 		Get ().Flush ();
 		//	Debug.Log (msg);
