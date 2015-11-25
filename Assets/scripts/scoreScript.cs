@@ -16,7 +16,7 @@ public class scoreScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		playerScore.text = "Score: "+currentScore+"\nScore positive: "+currentScorePositive+"\nScore negative: "+currentScoreNegative+"\n";
 	//	TextMesh textObject = GameObject.Find("ScoreNum").GetComponent<TextMesh>();
 		//playerScore = playerScore + 1;

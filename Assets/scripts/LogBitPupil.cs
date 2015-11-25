@@ -33,13 +33,12 @@ public class LogBitPupil{
 			i++;
 			dataPath = dataPa +"\\" + name + i+".csv";
 
+
 		}
+
 		Set (dataPath);
 
 		//	Debug.Log (dataPath);
-		
-		
-		//logFile = new System.IO.StreamWriter("C:/Users/xim/Desktop/Hello/my.txt", true);
 		//logFile.WriteLine("#Starting log sesion " + Application.loadedLevelName);	
 		Get ().WriteLine("%Timestamp," + header);	
 		
@@ -50,10 +49,10 @@ public class LogBitPupil{
 		//logEntry =  DateTime.Now+";"+ msg;
 		//logEntry = DateTime.Now.ToString("MM:dd:hh:mm:ss:fff",CultureInfo.InvariantCulture) + "," + msg;
 		
-		//logFile.WriteLine (logEntry);
+		//ogFile.WriteLine (logEntry);
 		//	UnityEngine.Debug.Log ("LogMessages");
-		
-		//	Debug.Log ("Lo");
+		UnityEngine.Debug.Log (Get());
+		UnityEngine.Debug.Log (msg);
 		Get ().WriteLine(msg);
 		Get ().Flush ();
 		//	Debug.Log (msg);

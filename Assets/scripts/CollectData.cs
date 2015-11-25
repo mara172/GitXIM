@@ -27,17 +27,13 @@ public class CollectData : MonoBehaviour {
 
 	public BITalinoSerialPort serial;
 
-	public GUIText state;
-
-	public GUIText data;
-
-	public GUIText eyetracker;
+	//public GUIText eyetracker;
 	private StreamWriter sw;
 
 	public bool useeyetracker = false;
 	public bool usebitalino = false;
 
-	public bool dataFile = false;
+	public bool dataFile = true;
 	private Stopwatch stopWatch;
 	public bool start = false;
 
@@ -56,9 +52,6 @@ public class CollectData : MonoBehaviour {
 
 		//myLog = new LogMsg("ATCLog_T", "pupilsize,timestamp,nplanes,lastaction,lastactiondetails,positivescore,negativescore");
 		// get input from bitalino copied from ConnectionState
-
-		state.text = "";
-		data.text = "";
 		start = true;
 		instantiator = GameObject.Find("Level").GetComponent<instantiateAirplanesHighCondition>();
 		scorer = Camera.main.GetComponent<scoreScript> ();
@@ -76,21 +69,22 @@ public class CollectData : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		//UnityEngine.Debug.Log (stopWatch.Elapsed.TotalSeconds);
-		UnityEngine.Debug.Log ("experiment_time " +experiment_time);
-		while (stopWatch.Elapsed.TotalSeconds < experiment_time) {
+		//UnityEngine.Debug.Log ("stop watch " + stopWatch.Elapsed.TotalSeconds + "experiment time"+ experiment_time);
+		if (stopWatch.Elapsed.TotalSeconds <= experiment_time) {
+			//UnityEngine.Debug.Log("in write " +stopWatch.Elapsed.TotalSeconds );
 			string bitalinodata = null;
 			string pupildata = null;
 			if (usebitalino || (useeyetracker)) {
 				if (useeyetracker && pupreader.on) {
 					pupildata = pupreader.getBuffer () [pupreader.pupBufferSize - 1].Get ().ToString ();
+
 				}
 				if (usebitalino && bitreader.asStart) {
 					bitalinodata = bitreader.getBuffer () [bitreader.BufferSize - 1].ToString ();
+
 				}
-				UnityEngine.Debug.Log ("Collectdata from bitalino" + bitalinodata);
+
 			}
-			UnityEngine.Debug.Log (dataFile);
 			if (dataFile) {
 				WriteinFile (bitalinodata, pupildata);
 			}
@@ -101,7 +95,6 @@ public class CollectData : MonoBehaviour {
 			instantiator.lastCrash.y = -2000;
 			instantiator.lastCrashAirplanes.Clear ();
 			instantiator.lastCrashAirplanetargetposition.Clear ();
-
 		}
 		if(stopWatch.Elapsed.TotalSeconds > experiment_time){
 			Application.Quit ();
@@ -113,7 +106,6 @@ public class CollectData : MonoBehaviour {
 
 	private void WriteinFile(string bitalinodata,string pupildata)
 	{
-		UnityEngine.Debug.Log ("inWrite");
 		if ((usebitalino == true) && (bitalinodata == null)) {
 			bitalinodata = ";;;;;;;;;;;;;";
 		}
@@ -160,12 +152,9 @@ public class CollectData : MonoBehaviour {
 			}
 			i++;
 		}
-		UnityEngine.Debug.Log (onSreenAir);
 		string lastCrashAirplanestarget ="("+string.Join(",", instantiator.lastCrashAirplanetargetposition.ToArray())+")";
 		Vector2 lastCrash =new Vector2 (-2000,-2000);
 		lastCrash=instantiator.lastCrash;
-
-		//		UnityEngine.Debug.Log ("Save line in collectdata");
 		string completeline= message2 +  nPlanes.ToString() + ";" + onSreenAir + ";" + lastAction.ToString() + ";" + lastActionDetails.ToString()+ ";" + lastActionAirPlaneNumber + ";" + calculatedScore.ToString() + ";" + positiveScore.ToString() + ";" 
 			+ negativeScore.ToString()+";"+ crashedAir +";"+ lastCrashAirplanestarget+";" + lastCrash.ToString()+";";
 		UnityEngine.Debug.Log (completeline);
