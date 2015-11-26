@@ -70,38 +70,40 @@ public class CollectData : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		//UnityEngine.Debug.Log ("stop watch " + stopWatch.Elapsed.TotalSeconds + "experiment time"+ experiment_time);
-		if (stopWatch.Elapsed.TotalSeconds <= experiment_time) {
-			//UnityEngine.Debug.Log("in write " +stopWatch.Elapsed.TotalSeconds );
-			string bitalinodata = null;
-			string pupildata = null;
-			if (usebitalino || (useeyetracker)) {
-				if (useeyetracker && pupreader.on) {
-					pupildata = pupreader.getBuffer () [pupreader.pupBufferSize - 1].Get ().ToString ();
-
-				}
-				if (usebitalino && bitreader.asStart) {
-					bitalinodata = bitreader.getBuffer () [bitreader.BufferSize - 1].ToString ();
-
-				}
-
-			}
-			if (dataFile) {
-				WriteinFile (bitalinodata, pupildata);
-			}
-			instantiator.lastAction = 0;
-			instantiator.lastActionDetails = 0;
-			instantiator.lastActionAirPlaneNumber = "";
-			instantiator.lastCrash.x = -2000;
-			instantiator.lastCrash.y = -2000;
-			instantiator.lastCrashAirplanes.Clear ();
-			instantiator.lastCrashAirplanetargetposition.Clear ();
-		}
-		if(stopWatch.Elapsed.TotalSeconds > experiment_time){
-			Application.Quit ();
-		}
 		if (Input.GetKeyUp (KeyCode.Escape)) {
 			Application.Quit ();
+		} else {
+			if (stopWatch.Elapsed.TotalSeconds <= experiment_time) {
+				//UnityEngine.Debug.Log("in write " +stopWatch.Elapsed.TotalSeconds );
+				string bitalinodata = null;
+				string pupildata = null;
+				if (usebitalino || (useeyetracker)) {
+					if (useeyetracker && pupreader.on) {
+						pupildata = pupreader.getBuffer () [pupreader.pupBufferSize - 1].Get ().ToString ();
+
+					}
+					if (usebitalino && bitreader.asStart) {
+						bitalinodata = bitreader.getBuffer () [bitreader.BufferSize - 1].ToString ();
+
+					}
+
+				}
+				if (dataFile) {
+					WriteinFile (bitalinodata, pupildata);
+				}
+				instantiator.lastAction = 0;
+				instantiator.lastActionDetails = 0;
+				instantiator.lastActionAirPlaneNumber = "";
+				instantiator.lastCrash.x = -2000;
+				instantiator.lastCrash.y = -2000;
+				instantiator.lastCrashAirplanes.Clear ();
+				instantiator.lastCrashAirplanetargetposition.Clear ();
+			}
+			if (stopWatch.Elapsed.TotalSeconds > experiment_time) {
+				Application.Quit ();
+			}
 		}
+
 	}
 
 	private void WriteinFile(string bitalinodata,string pupildata)

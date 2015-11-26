@@ -137,7 +137,7 @@ public class AirplaneBehaviourScript : MonoBehaviour {
 				//					instantiator.lastAction = 1;
 				//					instantiator.lastActionDetails = 4;
 				//				}
-				if (Input.GetKeyDown("l")) {
+				if (Input.GetKeyDown("h")) {
 					this.gameObject.layer = ((this.gameObject.layer == 9) ? 10: 9);
 					instantiator.lastAction = 2;
 					instantiator.lastActionDetails = 1;
