@@ -1,0 +1,259 @@
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD FirePro V7900 (FireGL V) (ID=0x6704)
+    Vendor:   ATI
+    VRAM:     2032 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.043 seconds
+desktop: 7680x1200 60Hz; virtual: 7680x1200 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\System.dll (this message is harmless)
+joyful airplane container
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\xim\Desktop\Matru\GitXIM\training_Data\Managed\System.Xml.dll (this message is harmless)
+I am in start pupilreader
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at CollectDataTraining.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7590 -> priority: 1 
+  Thread -> id: 7584 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at CollectDataTraining.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Thread Pupil software
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:864;08:27:22:856;1448567000.01;(0.4038795709609985, 0.698617278205024);55.3462982178;0.808805045407;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(0.0, 0.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:872;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:875;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:878;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:881;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:884;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:887;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:890;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:893;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:895;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:898;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:901;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:904;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:907;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:909;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:910;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:912;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:913;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:914;08:27:22:864;1448567000.04;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:942;08:27:22:923;1448567000.11;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:959;08:27:22:923;1448567000.11;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:975;08:27:22:923;1448567000.11;(0, 0);0;0;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:22:992;08:27:22:988;1448567000.14;(0.43290934562683103, 0.6866074456108942);54.3434181213;0.784959764439;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+08:27:23:009;08:27:22:988;1448567000.14;(0.43290934562683103, 0.6866074456108942);54.3434181213;0.784959764439;;;;;;;;;;;;;;0;0;0;0;0;0;0;0;0;();(-2000.0, -2000.0);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Written
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Done, Connection
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Close Calibration
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Close Calibration
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Close Calibration
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+

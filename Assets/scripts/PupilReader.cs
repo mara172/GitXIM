@@ -41,7 +41,7 @@ public class PupilReader : MonoBehaviour {
 		stopWatch = new Stopwatch();
 		//dataPath += "\\" + DateTime.Now.ToString("MMddHHmmssfff") + "_Data.csv";
 		clientPupil1 = new UdpClient( recievePortUDPPupil1 );
-		clientPupil1.Client.Blocking = false;
+		//clientPupil1.Client.Blocking = false;
 		remoteIpEndPointPupil1 = new IPEndPoint( IPAddress.Any, recievePortUDPPupil1 );
 		UnityEngine.Debug.Log ("I am in start pupilreader");
 		pupilframeBuffer = new PupilFrame[pupBufferSize];
