@@ -52,11 +52,15 @@ public class AirplaneBehaviourScriptTraining : MonoBehaviour {
 		if (selector.selectedPlaneName == this.name) {
 			selector.selectedPlaneName = "";
 		}
+		string savename = this.name;
 		//instantiator.nPlanes -= 1;
 	//	Debug.Log (instantiator.nPlanes);
 		this.gameObject.GetComponent<Renderer>().enabled = false;
 		if (type == 1) {
 			Destroy (this.gameObject, audioCollision.length); //waits till audio is finished playing before destroying.
+			if(selector.selectedPlaneName == savename){
+				selector.selectedPlaneName = "";
+			}
 		}
 		else {
 			Destroy(this.gameObject);
@@ -93,79 +97,18 @@ public class AirplaneBehaviourScriptTraining : MonoBehaviour {
 		if (screenPos.x < 0 || screenPos.x > Camera.main.pixelWidth || screenPos.y < 0 || screenPos.y > Camera.main.pixelHeight) {
 			//Debug.Log("I am safe");
 			//Debug.Log("score now: " + scorekeeper.GetComponent<scoreScript>().currentScore.ToString());
-			SafeDestroy(0);
-			scorekeeper.GetComponent<scoreScript>().currentScore += 5.0f;
-			scorekeeper.GetComponent<scoreScript>().currentScorePositive++;
+			SafeDestroy (0);
+			scorekeeper.GetComponent<scoreScript> ().currentScore += 5.0f;
+			scorekeeper.GetComponent<scoreScript> ().currentScorePositive++;
 			//Debug.Log("new score: " + scorekeeper.GetComponent<scoreScript>().currentScore.ToString());
-		} 
-		else {
-			lineRenderer.SetPosition(0,transform.position);
-			int currentAngle = (int) transform.rotation.eulerAngles.z;
-			float addx = 20*Mathf.Cos(currentAngle*Mathf.Deg2Rad);
-			float addy = 20*Mathf.Sin(currentAngle*Mathf.Deg2Rad);
-			lineRenderer.SetPosition(1,new Vector2(transform.position.x+addx,transform.position.y+addy));
-			if (selector.selectedPlaneName == this.name) {
-				//				if (Input.GetKeyDown ("a")) {
-				//					Debug.Log ("Rotate 90!");
-				//					RotateAndChangeVelocity (-90);
-				//					instantiator.lastAction = 1;
-				//					instantiator.lastActionDetails = 1;
-				//				}
-				if (Input.GetKeyDown ("down")) {
-					Debug.Log ("Rotate "+ changingangle +"!");
-					instantiator.lastAction = 1;
-					instantiator.lastActionDetails = 2;
-					Debug.Log("Setting last Action" + instantiator.lastAction);
-					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
-					//Debug.Log(instantiator.lastActionAirPlaneNumber);
-					RotateAndChangeVelocity (-1 * changingangle);
-
-				}
-				if (Input.GetKeyDown ("up")) {
-					Debug.Log ("Rotate -"+changingangle+" !");
-					instantiator.lastAction = 1;
-					instantiator.lastActionDetails = 3;
-					Debug.Log("Setting last Action" + instantiator.lastAction);
-					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
-					//Debug.Log(instantiator.lastActionAirPlaneNumber);
-					RotateAndChangeVelocity (changingangle);
-
-				}
-				//				if (Input.GetKeyDown ("f")) {
-				//					Debug.Log ("Rotate -90!");
-				//					RotateAndChangeVelocity (90);
-				//					instantiator.lastAction = 1;
-				//					instantiator.lastActionDetails = 4;
-				//				}
-				if (Input.GetKeyDown("l")) {
-					this.gameObject.layer = ((this.gameObject.layer == 9) ? 10: 9);
-					instantiator.lastAction = 2;
-					instantiator.lastActionDetails = 1;
-					Debug.Log("Setting last Action" + instantiator.lastAction);
-					instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString();
-					//Debug.Log(instantiator.lastActionAirPlaneNumber);
-					//GetComponent<SpriteRenderer>().color = ((this.gameObject.layer == 9) ? Color.blue: Color.black);
-					GetComponent<SpriteRenderer>().color = new Color(0.8f,0.8f,0.0f);
-					//update plane height (layer) on text label
-					int layerHuman = ((this.gameObject.layer == 9)? 2000: 3000);
-					//GetComponentInChildren<TextMesh>().text = "P "+ this.name + " ("+layerHuman.ToString()+")";
-					selector.selectedPlaneName = "";
-					audioSource.clip = audioRoger;
-					audioSource.Play();
-
-				}
-				if (Input.GetKeyDown("m")) {
-					//GetComponent<SpriteRenderer>().color = ((this.gameObject.layer == 9) ? Color.blue: Color.black);
-					GetComponent<SpriteRenderer>().color = new Color(0.8f,0.8f,0.0f);
-					selector.selectedPlaneName = "";
-				}
-				if (Input.GetKeyDown("o")) {
-					rbPlane.velocity = new Vector2 (rbPlane.velocity.x*9,rbPlane.velocity.y*9);
-					selector.selectedPlaneName = "";
-				}
-			}
+		} else {
+			lineRenderer.SetPosition (0, transform.position);
+			int currentAngle = (int)transform.rotation.eulerAngles.z;
+			float addx = 20 * Mathf.Cos (currentAngle * Mathf.Deg2Rad);
+			float addy = 20 * Mathf.Sin (currentAngle * Mathf.Deg2Rad);
+			lineRenderer.SetPosition (1, new Vector2 (transform.position.x + addx, transform.position.y + addy));
+			
 		}
-
 	}
 	void OnGUI(){
 		
@@ -178,7 +121,7 @@ public class AirplaneBehaviourScriptTraining : MonoBehaviour {
 		// Fontsize XIM
 		guiStyle.fontSize = 46; //change the font size
 		guiStyle.normal.textColor = Color.white;
-
+		
 		if((transform.rotation.eulerAngles.z < 90) || (270 < transform.rotation.eulerAngles.z)&& ( transform.rotation.eulerAngles.z < 360)){
 			//Namespace XIM
 			GUI.Label (new Rect (getPixelPos.x-280, getPixelPos.y, 200f, 100f), nm, guiStyle);
@@ -192,5 +135,77 @@ public class AirplaneBehaviourScriptTraining : MonoBehaviour {
 			//GUI.Label (new Rect (getPixelPos.x+10, getPixelPos.y, 200f, 100f), nm, guiStyle);
 			
 		}
+		if (selector.selectedPlaneName == this.name) {
+			if (Event.current.type == EventType.KeyDown) {
+				KeyPressedEventHandler ();
+			}
+			
+		}
+		
+		
 	}
+	
+	private void KeyPressedEventHandler() {
+		Debug.Log ("I am here");
+		// do whatever you want to do when a key was pressed ;-)
+		
+		Debug.Log ("I am in selected Airplane");
+		
+		//				if (Input.GetKeyDown ("a")) {
+		//					Debug.Log ("Rotate 90!");
+		//					RotateAndChangeVelocity (-90);
+		//					instantiator.lastAction = 1;
+		//					instantiator.lastActionDetails = 1;
+		//				}
+		
+		if (Input.GetKeyDown ("down")) {
+			Debug.Log ("Rotate " + changingangle + "!");
+			instantiator.lastAction = 1;
+			instantiator.lastActionDetails = 2;
+			Debug.Log ("Setting last Action" + instantiator.lastAction);
+			instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString ();
+			//Debug.Log(instantiator.lastActionAirPlaneNumber);
+			RotateAndChangeVelocity (-1 * changingangle);
+		} else if (Input.GetKeyDown ("up")) { 
+			Debug.Log ("Rotate -" + changingangle + " !");
+			instantiator.lastAction = 1;
+			instantiator.lastActionDetails = 3;
+			Debug.Log ("Setting last Action" + instantiator.lastAction);
+			instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString ();
+			//Debug.Log(instantiator.lastActionAirPlaneNumber);
+			RotateAndChangeVelocity (changingangle);
+		} else if (Input.GetKeyDown ("l")) {
+			this.gameObject.layer = ((this.gameObject.layer == 9) ? 10 : 9);
+			instantiator.lastAction = 2;
+			instantiator.lastActionDetails = 1;
+			Debug.Log ("Setting last Action" + instantiator.lastAction);
+			instantiator.lastActionAirPlaneNumber = this.gameObject.name.ToString ();
+			//Debug.Log(instantiator.lastActionAirPlaneNumber);
+			//GetComponent<SpriteRenderer>().color = ((this.gameObject.layer == 9) ? Color.blue: Color.black);
+			GetComponent<SpriteRenderer> ().color = new Color (0.8f, 0.8f, 0.0f);
+			//update plane height (layer) on text label
+			int layerHuman = ((this.gameObject.layer == 9) ? 2000 : 3000);
+			//GetComponentInChildren<TextMesh>().text = "P "+ this.name + " ("+layerHuman.ToString()+")";
+			selector.selectedPlaneName = "";
+			audioSource.clip = audioRoger;
+			audioSource.Play ();
+		} else if (Input.GetKeyDown ("m")) {
+			//GetComponent<SpriteRenderer>().color = ((this.gameObject.layer == 9) ? Color.blue: Color.black);
+			GetComponent<SpriteRenderer> ().color = new Color (0.8f, 0.8f, 0.0f);
+			selector.selectedPlaneName = "";
+		} else if (Input.GetKeyDown ("o")) {
+			rbPlane.velocity = new Vector2 (rbPlane.velocity.x * 9, rbPlane.velocity.y * 9);
+			selector.selectedPlaneName = "";
+		} else if (Input.GetKeyDown ("q")) {
+			
+			GetComponent<SpriteRenderer> ().color = new Color (0.8f, 0.8f, 0.0f);
+			selector.selectedPlaneName = "";
+		} else {
+			
+			GetComponent<SpriteRenderer> ().color = new Color (0.8f, 0.8f, 0.0f);
+			selector.selectedPlaneName = "";
+			return;
+		}
+		
+	} 
 }

@@ -22,33 +22,52 @@ public class SelectorBehaviourScriptTraining : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (selectPlaneMode) {
-			foreach (char c in Input.inputString) {
-				Debug.Log(c);
-				//if (c == "\n"[0] || c == "\r"[0]) {
-				if (selectedPlaneNameBuffer.Length == 1) {
-					selectedPlaneNameBuffer += c;
-					GameObject selectedPlane;
-					selectedPlane = GameObject.Find (selectedPlaneNameBuffer);
-					pMode.SetActive (false);
-					if (selectedPlane) {
-						selectedPlaneName = selectedPlaneNameBuffer;
-						Debug.Log("selected: " + selectedPlaneName);
-						selectedPlane.GetComponent<SpriteRenderer>().color = Color.red;
-					}
-					selectedPlaneNameBuffer = "";
-					selectPlaneMode = false;
-				}
-				else {
-					selectedPlaneNameBuffer += c;
-				}
+	void FixedUpdate () {
+		if(selectedPlaneNameBuffer.Length == 2){
+			Debug.Log("Got Airplane");
+			GameObject selectedPlane;
+			selectedPlane = GameObject.Find (selectedPlaneNameBuffer);
+			pMode.SetActive (false);
+			if (selectedPlane) {
+				selectedPlaneName = selectedPlaneNameBuffer;
+				Debug.Log("selected: " + selectedPlaneName);
+				selectedPlane.GetComponent<SpriteRenderer>().color = Color.red;
 			}
+			selectedPlaneNameBuffer = "";
+			selectPlaneMode = false;
 		}
-		if (selectedPlaneName == "" && Input.GetKeyDown("p")) {
+	}
+	
+	void OnGUI(){
+		
+		if (Event.current.type == EventType.KeyDown) {
+			KeyPressedEventHandler ();
+		}
+		
+	}
+	private void KeyPressedEventHandler() {
+		Debug.Log ("I am here");
+		// do whatever you want to do when a key was pressed ;-)
+		Debug.Log ("I am in selected Airplane");
+		if(Input.GetKeyDown("q")){
+			selectedPlaneNameBuffer = "";
+			selectPlaneMode = false;
+			pMode.SetActive (false);
+		}
+		if (Input.GetKeyDown("p")) {
+			selectedPlaneNameBuffer = "";
 			pMode.SetActive (true);
 			Debug.Log ("entering select plane mode");
 			selectPlaneMode = true;
+		}
+		if (selectPlaneMode) {
+			if ((Input.GetKeyDown ("1") || Input.GetKeyDown ("2") || Input.GetKeyDown ("3") || Input.GetKeyDown ("4") || Input.GetKeyDown ("5") || Input.GetKeyDown ("6") || Input.GetKeyDown ("7") || Input.GetKeyDown ("8") || Input.GetKeyDown ("9") || Input.GetKeyDown ("0"))){
+				selectedPlaneNameBuffer += Input.inputString[0];
+				Input.ResetInputAxes();
+				Debug.Log (selectedPlaneNameBuffer);
+				Debug.Log (selectedPlaneNameBuffer.Length);
+			}
+			
 		}
 	}
 }
