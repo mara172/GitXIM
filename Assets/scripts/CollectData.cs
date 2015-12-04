@@ -84,20 +84,21 @@ public class CollectData : MonoBehaviour {
 					}
 					if (usebitalino && bitreader.asStart) {
 						bitalinodata = bitreader.getBuffer () [bitreader.BufferSize - 1].ToString ();
-
+						UnityEngine.Debug.Log("in write " +bitalinodata);
 					}
 
 				}
 				if (dataFile) {
 					WriteinFile (bitalinodata, pupildata);
+					instantiator.lastAction = 0;
+					instantiator.lastActionDetails = 0;
+					instantiator.lastActionAirPlaneNumber = "";
+					instantiator.lastCrash.x = -2000;
+					instantiator.lastCrash.y = -2000;
+					instantiator.lastCrashAirplanes.Clear ();
+					instantiator.lastCrashAirplanetargetposition.Clear ();
 				}
-				instantiator.lastAction = 0;
-				instantiator.lastActionDetails = 0;
-				instantiator.lastActionAirPlaneNumber = "";
-				instantiator.lastCrash.x = -2000;
-				instantiator.lastCrash.y = -2000;
-				instantiator.lastCrashAirplanes.Clear ();
-				instantiator.lastCrashAirplanetargetposition.Clear ();
+			
 			}
 			if (stopWatch.Elapsed.TotalSeconds > experiment_time) {
 				Application.Quit ();
